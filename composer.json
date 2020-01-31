@@ -1,13 +1,17 @@
 {
-  "name": "oringhiser/328/pets2",
+  "name": "/IT328/pets3",
   "authors": [
     {
-      "name": "Olivia Ringhiser",
-      "email": "oringhiser@mail.greenriver.edu"
+      "name": "Evgenii Mishkin",
+      "email": "emishkin@mail.greenriver.edu"
     },
     {
       "name": "Robert Cox",
       "email": "rcox@mail.greenriver.edu"
+    },
+    {
+      "name": "Brian Kiehn",
+      "email": "bkiehn@mail.greenriver.edu"
     }
   ],
   "require": {
