@@ -15,6 +15,9 @@ $fff = Base::instance();
 
 $fff->set('colors', array('pink', 'green', 'blue'));
 
+//Set debug level
+$fff->set('DEBUG', 3);
+
 $fff->route("GET /", function () {
     /*$view = new Template();
     echo $view->render("views/home.html");*/
@@ -35,12 +38,12 @@ $fff->route("GET /", function () {
 </html>";
 });
 
-$fff->route("GET /order", function () {
+$fff->route("GET|POST /order", function () {
     $view = new Template();
     echo $view->render("views/form1.html");
 });
 
-$fff->route("POST /order2", function () {
+$fff->route("GET|POST /order2", function () {
     $_SESSION["animal"] = $_POST["animal"];
     $view = new Template();
     echo $view->render("views/form2.html");
