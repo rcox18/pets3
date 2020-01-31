@@ -1,10 +1,10 @@
 <?php
 session_start();
 /**
- * URL: http://rcox.greenriverdev.com/IT328/pets/index.php
- * Authors: Robert Cox, Olivia Ringhiser
+ * URL: http://rcox.greenriverdev.com/IT328/pets3
+ * Authors: Robert Cox
  * Version: 1.0
- * Date: 1/24/20
+ * Date: 1/31/20
  *
  **/
 ini_set('display_errors', 1);
