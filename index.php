@@ -12,6 +12,9 @@ error_reporting(E_ALL);
 
 require_once("vendor/autoload.php");
 $fff = Base::instance();
+
+$fff->set('colors', array('pink', 'green', 'blue'));
+
 $fff->route("GET /", function () {
     /*$view = new Template();
     echo $view->render("views/home.html");*/

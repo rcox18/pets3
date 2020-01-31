@@ -8,9 +8,9 @@
 <form action="results" method="post">
     <label for="color">Color
         <select name="color" id="color">
-            <repeat group="{{@colors}}" value="{{@colorOption}}">
-                <option>{{@colorOption}}</option>
-            </repeat>
+            <?php foreach (($colors?:[]) as $colorOption): ?>
+                <option><?= ($colorOption) ?></option>
+            <?php endforeach; ?>
         </select>
     </label>
     <input type="submit" value="Submit">
