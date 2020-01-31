@@ -1,0 +1,16 @@
+{
+  "name": "oringhiser/328/pets2",
+  "authors": [
+    {
+      "name": "Olivia Ringhiser",
+      "email": "oringhiser@mail.greenriver.edu"
+    },
+    {
+      "name": "Robert Cox",
+      "email": "rcox@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
