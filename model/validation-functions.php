@@ -6,5 +6,5 @@ function validColor($color) {
 }
 
 function validString($string) {
-    return !is_numeric($string) AND trim($string) != "";
+    return $string !== "" && ctype_alpha($string);
 }

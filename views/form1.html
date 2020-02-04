@@ -7,9 +7,12 @@
 <body>
 <form action="#" method="post">
     <label for="animal">Animal
-        <input type="text" name="animal" id="animal">
+        <input type="text" name="animal" id="animal" value="{{ @animal }}">
     </label>
     <input type="submit" value="Next">
+    <check if="{{ @errors['animal'] }}">
+        <span class="err">{{ @errors['animal'] }}</span>
+    </check>
 </form>
 </body>
 </html>
